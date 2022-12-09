@@ -1,5 +1,6 @@
 import 'package:auto_route/annotations.dart';
 import 'package:ridersewa/features/auth/login_page/login_page.dart';
+import 'package:ridersewa/features/services/contact_page/contact_page.dart';
 import 'package:ridersewa/features/services/history_page/history_page.dart';
 import 'package:ridersewa/features/services/home_page/home_page.dart';
 import 'package:ridersewa/features/services/message_page/champaigns.dart';
@@ -15,6 +16,7 @@ import 'package:ridersewa/features/splash_page/splash_page.dart';
   MaterialRoute(page: MessagePage),
   MaterialRoute(page: InboxPage),
   MaterialRoute(page: ChampaignsPage),
+  MaterialRoute(page: ContactPage),
 ])
 class $AppRouter {}
 
