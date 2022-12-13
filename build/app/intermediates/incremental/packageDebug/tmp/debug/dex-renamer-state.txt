@@ -1,4 +1,4 @@
-#Fri Dec 09 12:17:55 NPT 2022
+#Tue Dec 13 13:01:15 NPT 2022
 base.0=G\:\\ridersewa\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

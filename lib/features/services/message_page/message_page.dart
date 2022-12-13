@@ -36,7 +36,7 @@ class _MessagePageState extends State<MessagePage> {
                 ],
               ),
             ),
-            Expanded(
+            const Expanded(
               flex: 2,
               child: TabBarView(
                 children: <Widget>[

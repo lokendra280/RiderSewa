@@ -29,7 +29,10 @@ class _HomePageState extends State<HomePage> {
         child: currentScreen,
       ),
       floatingActionButton: FloatingActionButton(
-        child: const Icon(Icons.qr_code_scanner_sharp),
+        backgroundColor: const Color.fromRGBO(255, 103, 0, 11),
+        child: const Icon(
+          Icons.qr_code_scanner_sharp,
+        ),
         onPressed: () {},
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
@@ -57,12 +60,12 @@ class _HomePageState extends State<HomePage> {
                       children: [
                         Icon(
                           Icons.home,
-                          color: currentTab == 0 ? Colors.blue : Colors.grey,
+                          color: currentTab == 0 ? Colors.blue : Colors.black,
                         ),
                         Text(
                           'Home',
                           style: TextStyle(
-                            color: currentTab == 0 ? Colors.blue : Colors.grey,
+                            color: currentTab == 0 ? Colors.blue : Colors.black,
                           ),
                         ),
                       ],
@@ -81,12 +84,12 @@ class _HomePageState extends State<HomePage> {
                       children: [
                         Icon(
                           Icons.email,
-                          color: currentTab == 1 ? Colors.blue : Colors.grey,
+                          color: currentTab == 1 ? Colors.blue : Colors.black,
                         ),
                         Text(
                           'Message',
                           style: TextStyle(
-                            color: currentTab == 1 ? Colors.blue : Colors.grey,
+                            color: currentTab == 1 ? Colors.blue : Colors.black,
                           ),
                         ),
                       ],
@@ -110,12 +113,12 @@ class _HomePageState extends State<HomePage> {
                       children: [
                         Icon(
                           Icons.history_rounded,
-                          color: currentTab == 3 ? Colors.blue : Colors.grey,
+                          color: currentTab == 3 ? Colors.blue : Colors.black,
                         ),
                         Text(
                           'History',
                           style: TextStyle(
-                            color: currentTab == 3 ? Colors.blue : Colors.grey,
+                            color: currentTab == 3 ? Colors.blue : Colors.black,
                           ),
                         ),
                       ],
@@ -134,12 +137,12 @@ class _HomePageState extends State<HomePage> {
                       children: [
                         Icon(
                           Icons.location_history,
-                          color: currentTab == 4 ? Colors.blue : Colors.grey,
+                          color: currentTab == 4 ? Colors.blue : Colors.black,
                         ),
                         Text(
                           'Contact',
                           style: TextStyle(
-                            color: currentTab == 4 ? Colors.blue : Colors.grey,
+                            color: currentTab == 4 ? Colors.blue : Colors.black,
                           ),
                         ),
                       ],
